@@ -2076,3 +2076,38 @@ SyntaxError: unterminated string literal (detected at line 27)
 [2025-03-06T14:55:52.339+0000] {logging_mixin.py:188} INFO - [2025-03-06T14:55:52.339+0000] {dag.py:3036} INFO - Sync 1 DAGs
 [2025-03-06T14:55:52.406+0000] {logging_mixin.py:188} INFO - [2025-03-06T14:55:52.405+0000] {dag.py:3823} INFO - Setting next_dagrun for booking_ingestion to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
 [2025-03-06T14:55:52.555+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/data_ingestion_dag/main.py took 1.184 seconds
+[2025-03-06T14:56:23.794+0000] {processor.py:161} INFO - Started process (PID=435) to work on /opt/airflow/dags/data_ingestion_dag/main.py
+[2025-03-06T14:56:23.797+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/data_ingestion_dag/main.py for tasks to queue
+[2025-03-06T14:56:23.800+0000] {logging_mixin.py:188} INFO - [2025-03-06T14:56:23.800+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_dag/main.py
+[2025-03-06T14:56:24.802+0000] {processor.py:840} INFO - DAG(s) 'booking_ingestion' retrieved from /opt/airflow/dags/data_ingestion_dag/main.py
+[2025-03-06T14:56:24.915+0000] {logging_mixin.py:188} INFO - [2025-03-06T14:56:24.913+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-06T14:56:25.006+0000] {logging_mixin.py:188} INFO - [2025-03-06T14:56:25.006+0000] {dag.py:3823} INFO - Setting next_dagrun for booking_ingestion to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-06T14:56:25.156+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/data_ingestion_dag/main.py took 1.373 seconds
+[2025-03-06T14:56:56.213+0000] {processor.py:161} INFO - Started process (PID=437) to work on /opt/airflow/dags/data_ingestion_dag/main.py
+[2025-03-06T14:56:56.217+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/data_ingestion_dag/main.py for tasks to queue
+[2025-03-06T14:56:56.221+0000] {logging_mixin.py:188} INFO - [2025-03-06T14:56:56.219+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_dag/main.py
+[2025-03-06T14:56:56.954+0000] {processor.py:840} INFO - DAG(s) 'booking_ingestion' retrieved from /opt/airflow/dags/data_ingestion_dag/main.py
+[2025-03-06T14:56:57.033+0000] {logging_mixin.py:188} INFO - [2025-03-06T14:56:57.032+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-06T14:56:57.160+0000] {logging_mixin.py:188} INFO - [2025-03-06T14:56:57.159+0000] {dag.py:3823} INFO - Setting next_dagrun for booking_ingestion to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-06T14:56:57.326+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/data_ingestion_dag/main.py took 1.119 seconds
+[2025-03-06T14:57:27.664+0000] {processor.py:161} INFO - Started process (PID=439) to work on /opt/airflow/dags/data_ingestion_dag/main.py
+[2025-03-06T14:57:27.667+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/data_ingestion_dag/main.py for tasks to queue
+[2025-03-06T14:57:27.670+0000] {logging_mixin.py:188} INFO - [2025-03-06T14:57:27.669+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_dag/main.py
+[2025-03-06T14:57:28.407+0000] {processor.py:840} INFO - DAG(s) 'booking_ingestion' retrieved from /opt/airflow/dags/data_ingestion_dag/main.py
+[2025-03-06T14:57:28.476+0000] {logging_mixin.py:188} INFO - [2025-03-06T14:57:28.476+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-06T14:57:28.545+0000] {logging_mixin.py:188} INFO - [2025-03-06T14:57:28.544+0000] {dag.py:3823} INFO - Setting next_dagrun for booking_ingestion to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-06T14:57:28.777+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/data_ingestion_dag/main.py took 1.124 seconds
+[2025-03-06T14:57:59.665+0000] {processor.py:161} INFO - Started process (PID=441) to work on /opt/airflow/dags/data_ingestion_dag/main.py
+[2025-03-06T14:57:59.669+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/data_ingestion_dag/main.py for tasks to queue
+[2025-03-06T14:57:59.672+0000] {logging_mixin.py:188} INFO - [2025-03-06T14:57:59.671+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_dag/main.py
+[2025-03-06T14:58:00.604+0000] {processor.py:840} INFO - DAG(s) 'booking_ingestion' retrieved from /opt/airflow/dags/data_ingestion_dag/main.py
+[2025-03-06T14:58:00.666+0000] {logging_mixin.py:188} INFO - [2025-03-06T14:58:00.665+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-06T14:58:00.728+0000] {logging_mixin.py:188} INFO - [2025-03-06T14:58:00.728+0000] {dag.py:3823} INFO - Setting next_dagrun for booking_ingestion to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-06T14:58:00.868+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/data_ingestion_dag/main.py took 1.216 seconds
+[2025-03-06T14:58:35.532+0000] {processor.py:161} INFO - Started process (PID=443) to work on /opt/airflow/dags/data_ingestion_dag/main.py
+[2025-03-06T14:58:35.540+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/data_ingestion_dag/main.py for tasks to queue
+[2025-03-06T14:58:35.543+0000] {logging_mixin.py:188} INFO - [2025-03-06T14:58:35.542+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_dag/main.py
+[2025-03-06T14:58:37.335+0000] {processor.py:840} INFO - DAG(s) 'booking_ingestion' retrieved from /opt/airflow/dags/data_ingestion_dag/main.py
+[2025-03-06T14:58:37.522+0000] {logging_mixin.py:188} INFO - [2025-03-06T14:58:37.521+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-06T14:58:37.666+0000] {logging_mixin.py:188} INFO - [2025-03-06T14:58:37.665+0000] {dag.py:3823} INFO - Setting next_dagrun for booking_ingestion to 2025-03-05 00:00:00+00:00, run_after=2025-03-06 00:00:00+00:00
+[2025-03-06T14:58:37.914+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/data_ingestion_dag/main.py took 2.392 seconds
